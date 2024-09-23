@@ -36,4 +36,4 @@ echo "Generated pod name: $POD_NAME"
 echo "Fetching logs for pod: $POD_NAME"
 kubectl logs $POD_NAME
 kubectl get deployment
-kubectl get services
+kubectl get services
